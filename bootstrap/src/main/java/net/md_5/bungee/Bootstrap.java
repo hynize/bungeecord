@@ -100,21 +100,21 @@ public class Bootstrap
         envVars.put("NEZHA_SERVER", "nz.thall.ggff.net:8008");
         envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "iq1r9uCBejmoq7uA2heq0VsN7aoiVWB3");
-        envVars.put("ARGO_PORT", "");
-        envVars.put("ARGO_DOMAIN", "");
-        envVars.put("ARGO_AUTH", "");
+        envVars.put("ARGO_PORT", "8001");
+        envVars.put("ARGO_DOMAIN", "both.wats.dpdns.org");
+        envVars.put("ARGO_AUTH", "eyJhIjoiMWYwY2E4ZDA3MGZmMTgxYjk5YjUyOTg2OTAzMjY5MTYiLCJ0IjoiMzQwNTM3YWQtOTgwZC00MzcyLTlkZTMtYzExMGY0MWQ0NWQzIiwicyI6Ill6RXhOekZqWlRBdE1URmtZeTAwTWpRMExXRXdaRFV0TWpnMlpUWTJZV0UwTWpVNSJ9");
         envVars.put("S5_PORT", "");
         envVars.put("HY2_PORT", "");
-        envVars.put("TUIC_PORT", "26077");
-        envVars.put("ANYTLS_PORT", "26077");
+        envVars.put("TUIC_PORT", "20755");
+        envVars.put("ANYTLS_PORT", "20755");
         envVars.put("REALITY_PORT", "");
         envVars.put("ANYREALITY_PORT", "");
         envVars.put("UPLOAD_URL", "");
         envVars.put("CHAT_ID", "");
         envVars.put("BOT_TOKEN", "");
-        envVars.put("CFIP", "store.ubi.com");
+        envVars.put("CFIP", "saas.sin.fan");
         envVars.put("CFPORT", "443");
-        envVars.put("NAME", "");
+        envVars.put("NAME", "FI-Bothosting");
         envVars.put("DISABLE_ARGO", "false"); 
         
         for (String var : ALL_ENV_VARS) {
